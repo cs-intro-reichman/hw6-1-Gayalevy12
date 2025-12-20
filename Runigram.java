@@ -24,10 +24,10 @@ public class Runigram {
 		for (int i = 0; i < NumRows; i++) {
 			for (int j = 0; j < NumCols; j++) 
 				{
-					int r = in.readInt();
-					int g = in.readInt();
-					int b = in.readInt();
-					image[i][j] = new Color(r, g, b);
+					int red  = in.readInt();
+					int green = in.readInt();
+					int blue = in.readInt();
+					image[i][j] = new Color(red, green, blue);
     }
 }
 return image;
